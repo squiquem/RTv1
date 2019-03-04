@@ -1,0 +1,9 @@
+CAM {position: (0, 0, -2000), direction: (0, 0, 1)};
+// CAM {position: (0, 0, 0), direction: (0, 0, 0)};
+MAT {diffusion: (255, 255, 0), reflexion: 0, specvalue: 100, specpower: 100};
+MAT {diffusion: (0, 255, 255), reflexion: 0, specvalue: 100, specpower: 100};
+MAT {diffusion: (255, 0, 255), reflexion: 0, specvalue: 100, specpower: 100};
+LIGHT {position: (0, 0, -1000), intensity: (255, 255, 255)};
+CONE {direction: (0, 0, 0), center: (500, 300, 2200), angle: 10, mat: 0};
+// PLANE {normale: (0, 1, 0), d: 100, mat: 2};
+// PLANE {normale: (0, 1, 0), d: 100, mat: 2} +T (0, 600, 0);

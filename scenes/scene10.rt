@@ -1,0 +1,10 @@
+CAM {position: (0, 500, -500), direction: (0, -1, 1)};
+MAT {diffusion: (255, 0, 0), reflexion: 0, specvalue: 100, specpower: 100};
+MAT {diffusion: (0, 255, 0), reflexion: 0, specvalue: 100, specpower: 100};
+MAT {diffusion: (0, 0, 255), reflexion: 0, specvalue: 100, specpower: 100};
+LIGHT {position: (0, 0, -1000), intensity: (255, 255, 255)};
+CONE {direction: (-1, 1, 0), center: (150, 0, 0), angle: 20, mat: 0};
+CYLINDER {direction: (1, 1, 0), center: (-150, 0, 0), radius: 50, mat: 2};
+PLANE {normale: (0, 1, 0), d: 100, mat: 2};
+PLANE {normale: (0, 1, 0), d: 100, mat: 2} +T (0, 500, 0) +R (90, 0, 0);
+SPHERE {center: (0, 0, 0), radius: 100, mat: 1};

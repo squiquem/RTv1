@@ -1,0 +1,22 @@
+CAM {position: (0, 0, -2000), direction: (0, 0, 1)}
+MAT {diffusion: (255, 0, 0), reflexion: 0, specvalue: 100, specpower: 100};
+MAT {diffusion: (0, 255, 0), reflexion: 0, specvalue: 100, specpower: 100};
+MAT {diffusion: (0, 0, 255), reflexion: 0, specvalue: 100, specpower: 100};
+LIGHT {position: (2000, 0, -1000), intensity: (255, 255, 255)};
+LIGHT {position: (-2000, 0, -1000), intensity: (255, 255, 255)};
+SPHERE {center: (900, 500, 200), radius: 250, mat: 2};
+SPHERE {center: (-900, 500, 200), radius: 250, mat: 2};
+SPHERE {center: (900, 500, 900), radius: 250, mat: 2};
+SPHERE {center: (-900, 500, 900), radius: 250, mat: 2};
+SPHERE {center: (900, -500, 200), radius: 250, mat: 2};
+SPHERE {center: (-900, -500, 200), radius: 250, mat: 2};
+SPHERE {center: (900, -500, 900), radius: 250, mat: 2};
+SPHERE {center: (-900, -500, 900), radius: 250, mat: 2};
+SPHERE {center: (0, 0, 0), radius: 100, mat: 0};
+CYLINDER {direction: (0, 1, 0), axispoint: (900, 0, 200), radius: 150, mat: 2};
+CYLINDER {direction: (0, 1, 0), axispoint: (-900, 0, 200), radius: 150, mat: 2};
+CYLINDER {direction: (0, 1, 0), axispoint: (900, 0, 900), radius: 150, mat: 2};
+CYLINDER {direction: (0, 1, 0), axispoint: (-900, 0, 900), radius: 150, mat: 2};
+PLANE {normale: (0, -1, 0), d: -500, mat: 1};
+PLANE {normale: (0, 0, 1), d: -1500, mat: 1};
+PLANE {normale: (0, 1, 0), d: -500, mat: 1};

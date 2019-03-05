@@ -25,6 +25,7 @@ ____
 ____
 
 Here is a simple file parsed by my program: 
+
 	// Comments starts with '//'
 	CAM {position: (0, 0, -2000), direction: (0, 0, 1);
 	MAT {diffusion: (255, 0, 0), reflexion: 0, specvalue: 100, specpower: 100};
@@ -52,9 +53,9 @@ Here is a simple file parsed by my program:
 ____
 
 Here is the output of the file above:
-![Rendu 1](https://github.com/squiquem/RTV1/blob/master/screenshots/scene7.png
+![Rendu 1](https://github.com/squiquem/RTV1/blob/master/screenshots/scene7.PNG)
 
 Enjoy another cool picture!
-![Rendu 2](https://github.com/squiquem/RTV1/blob/master/screenshots/scene9.png)
+![Rendu 2](https://github.com/squiquem/RTV1/blob/master/screenshots/scene9.PNG)
 
 If you have any questions or suggestions, feel free to send me an email at squiquem@student.42.fr

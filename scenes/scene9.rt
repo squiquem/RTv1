@@ -1,4 +1,4 @@
-CAM {position: (0, 0, -1000), direction: (0, 0, 1), +T (0, 300, 0)};
+CAM {position: (0, 0, -1000), direction: (0, 0, 1), +T (0, 100, 0)};
 // CAM {position: (0, 1000, 1000), direction: (1, 1, 1)};
 MAT {diffusion: (255, 0, 0), reflexion: 0, specvalue: 100, specpower: 100};
 MAT {diffusion: (0, 255, 0), reflexion: 0, specvalue: 100, specpower: 100};

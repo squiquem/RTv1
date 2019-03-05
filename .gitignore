@@ -1,0 +1,6 @@
+.DS_Store
+*.a
+*.o
+libft/obj/
+objects/
+rtv1

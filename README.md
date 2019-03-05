@@ -52,10 +52,13 @@ Here is a simple file parsed by my program:
 	PLANE {normale: (0, 1, 0), d: -500, mat: 1};
 ____
 
+## Screenshots
+
 Here is the output of the file above:
 ![Rendu 1](https://github.com/squiquem/RTV1/blob/master/screenshots/scene7.PNG)
 
 Enjoy another cool picture!
 ![Rendu 2](https://github.com/squiquem/RTV1/blob/master/screenshots/scene9.PNG)
+____
 
 If you have any questions or suggestions, feel free to send me an email at squiquem@student.42.fr
